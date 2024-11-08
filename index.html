@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Towers Of Hanoi</title>
+  </head>
+  <body>
+    <h1>Towers of Hanoi</h1>
+    <div class="move-container">
+      <div id="player-move">
+        <input
+        type="text"
+        class="fromTower"
+        placeholder="Move from this tower..."
+        />
+        <p>➜</p>
+        <input class="toTower" type="text" placeholder="...to this tower" />
+        <button id="moveButton">Submit</button>
+        <button id="reset">New Game</button>
+      </div>
+    </div>
+    <div id="game-board">
+      <div class="tower-container">
+        <div id="tower-1" class="tower">
+          <div class="disk disk-1"></div>
+          <div class="disk disk-2"></div>
+          <div class="disk disk-3"></div>
+          <div class="disk disk-4"></div>
+          <div class="disk disk-5"></div>
+        </div>
+        <h3 class="tower1">1</h3>
+      </div>
+      <div class="tower-container">
+        <div id="tower-2" class="tower"></div>
+        <h3 class="tower2">2</h3>
+      </div>
+      <div class="tower-container">
+        <div id="tower-3" class="tower"></div>
+        <h3 class="tower3">3</h3>
+      </div>
+    </div>
+    <div id="lastValidMove">
+    </div>
+    <br />
+    <div id="invalidMoves">
+    </div>
+    <div id="game-container">
+      <div style="padding-top: 40px">Features not yet implemented:</div>
+      <div class="controls">
+        <s>
+          <div>
+            <p>Change number of towers and disks</p>
+            <label for="diskCount">Number of Disks:</label>
+            <input
+              type="number"
+              id="diskCount"
+              min="1"
+              max="8"
+              value="5"
+              disabled
+            />
+          </div>
+          <div>
+            <label for="towerCount">Number of Towers:</label>
+            <input
+              type="number"
+              id="towerCount"
+              min="3"
+              max="8"
+              value="3"
+              disabled
+            />
+          </div>
+          <button id="updateDiskCount" disabled>Update Game</button>
+        </s>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
