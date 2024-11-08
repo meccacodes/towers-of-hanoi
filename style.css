@@ -1,0 +1,100 @@
+h1 {
+  text-align: center;
+}
+
+#game-board {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  gap: 20px;
+}
+
+#lastValidMove {
+  padding-top: 10px;
+  color: green;
+}
+
+#invalidMoves {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.disk {
+  color: #333;
+  border-radius: 25px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.tower-container {
+  text-align: center;
+}
+
+.tower {
+  background-color: #333;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.disk-5 {
+  width: 100%;
+  background-color: mediumturquoise;
+}
+
+.disk-4 {
+  width: 80%;
+  background-color: lightgreen;
+}
+
+.disk-3 {
+  width: 60%;
+  background-color: lightyellow;
+}
+
+.disk-2 {
+  width: 40%;
+  background-color: lightcoral;
+}
+
+.disk-1 {
+  width: 20%;
+  background-color: rosybrown;
+}
+
+.move-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#player-move {
+  display: flex;
+  gap: 10px;
+}
+
+.fromTower {
+  margin-right: 10px;
+}
+
+.toTower {
+  margin-left: 10px;
+}
+
+#game-container {
+  display: none;
+}
