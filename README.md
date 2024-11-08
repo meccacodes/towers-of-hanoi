@@ -1,5 +1,9 @@
 ## Towers of Hanoi
 
-This project has been created by a student at Parsity, an online software engineering course. The work in this repository is wholly of the student based on a sample starter project that can be accessed by looking at the repository that this project forks.
+I learned so much with this project.
 
-If you have any questions about this project or the program in general, visit [parsity.io](https://parsity.io/) or email hello@parsity.io.
+Currently the controls for the game are a little laborious for the user, having to type a tower number into each input and click submit to make every move.  I would love to implement a drag and drop library to make playing the game more enjoyable.  Maybe someday I will do that!
+
+I also had every intention to submit this with Jasmine tests, but ran out of time after implementing the UI.
+
+This is a fansastic first eval for the program.  I'm excited to see what's next!
