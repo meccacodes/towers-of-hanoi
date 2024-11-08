@@ -201,11 +201,3 @@ moveButton.addEventListener("click", function (event) {
   // check to see if game is won
   checkWinner(tower2, tower3);
 });
-
-// //////////////////////////////////////////////////////////////////////////////
-// *** SANDBOX ***
-// //////////////////////////////////////////////////////////////////////////////
-
-// if tower contains disks, show arrows
-// if right arrow, move disk right
-// if left arrow move disk left
